@@ -1,0 +1,26 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section
+  inspection: DeclaresTag:figure
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section/figure
+  inspection: DeclaresTag:img
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section/figure/img
+  inspection: DeclaresAttribute:src="https://raw.githubusercontent.com/smartedu-mumuki/mumuki-guia-html-estructura/master/images/panqueques.jpg"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section/figure/img
+  inspection: DeclaresAttribute:alt="Panqueques"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body
+  inspection: DeclaresTag:header
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section
+  inspection: DeclaresAttribute:id="descripcion"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section
+  inspection: DeclaresAttribute:id="ingredientes"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section
+  inspection: DeclaresAttribute:id="pasos"

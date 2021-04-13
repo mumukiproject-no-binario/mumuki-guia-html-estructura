@@ -1,0 +1,68 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body
+  inspection: DeclaresTag:header
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/header
+  inspection: DeclaresTag:figure
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/header
+  inspection: DeclaresTag:p
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body
+  inspection: DeclaresTag:nav
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/nav
+  inspection: DeclaresTag:ul
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/nav/ul/li/a
+  inspection: DeclaresAttribute:href="#terror"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/nav/ul/li/a
+  inspection: DeclaresAttribute:href="#drama"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/nav/ul/li/a
+  inspection: DeclaresAttribute:href="#animadas"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body
+  inspection: DeclaresTag:section
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section
+  inspection: DeclaresAttribute:id="terror"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section
+  inspection: DeclaresAttribute:id="drama"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section
+  inspection: DeclaresAttribute:id="animadas"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section
+  inspection: DeclaresTag:h1
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section
+  inspection: DeclaresTag:article
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section/article
+  inspection: DeclaresTag:h4
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section/article
+  inspection: DeclaresTag:p
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body
+  inspection: DeclaresTag:aside
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/aside
+  inspection: DeclaresTag:h2
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/aside/h2
+  inspection: DeclaresTag:strong
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body
+  inspection: DeclaresTag:footer
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/footer
+  inspection: DeclaresTag:p
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/footer
+  inspection: DeclaresTag:em

@@ -1,0 +1,27 @@
+---
+locale: es
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: '"Lemon pie" es un título'
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: '"Descripción" es una barra de navegación'
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: '"Copyright Mumuki" es un pie de página'
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: El video de cómo hacer galletitas está muy relacionado con la receta de un
+    Lemon Pie
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: '"Pasos" e "Ingredientes" son cajas diferentes'
+  checked: true
+name: Paso cero
